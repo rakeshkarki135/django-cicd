@@ -1,0 +1,4 @@
+scripts:
+  server : cd tutorial1 && python manage.py runserver
+  migrate: cd tutorial1 && python manage.py migrate
+  makemigrations: cd tutorial1 && python manage.py makemigrations
