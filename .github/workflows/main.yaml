@@ -53,4 +53,5 @@ jobs:
           POSTGRES_DB: django_cicd
           POSTGRES_HOST: postgres_main
         run: |
+          cd tutorial1
           python manage.py test
